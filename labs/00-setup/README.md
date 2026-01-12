@@ -45,7 +45,7 @@ You can use <a href="https://github.com/codespaces/" target="_blank" rel="noopen
 
 - Create a secret Gist (a special kind of GitHub repository), name it "Lab-00-YOUR_COMPUTING_ID" (replace with your actual computing ID) as described in the [Submitting Labs](../../labs/README.md#submitting-labs) section.
 - In your Gist, create a new text file `submission.txt`
-- In the submission.txt file, add on three lines the following information
+- In the `submission.txt` file, add on three lines the following information
 ```bash
 Computing id: <your computing id>
 GitHub username: <your GitHub username>

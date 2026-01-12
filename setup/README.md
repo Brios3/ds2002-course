@@ -57,6 +57,14 @@ You should see a screen like this:
 
 Once your codespace is ready, you'll have a fully configured development environment in your browser!
 
+## Access to UVA's High Performance Computing Cluster
+
+Throughout this course students will have access to [UVA's HPC systems (Afton & Rivanna)](https://www.rc.virginia.edu/userinfo/hpc/). In addition to HPC specific activities in Module 3, you may also use the system as an alternative to Codespaces for other course activities.
+
+**You don't have to install software on your own computer to access the systems.**
+
+The login process is described in the **[HPC Access](hpc.md)** instructions.
+
 ## Optional: Installation on your own computer
 
 If you prefer to set up the development environment on your own computer instead of using GitHub Codespaces, follow the platform-specific instructions:

@@ -2,22 +2,21 @@
 
 The goal of this activity is to familiarize you with the fundamental commands used in Unix-like environments (Linux and macOS). These commands are essential for navigating the filesystem, managing files and directories, and manipulating data efficiently. 
 
-> **Note:** Go to your ***forked course repository*** and start Codespaces as described in the [course's general setup instructions](../../setup/README.md). If you haven't forked the repo yet, do it now. 
-
-> **Advanced: Optional** - If you set up software tools on your own computer, for an additional challenge, complete these exercises on your local laptop using either the MacOS Terminal (Mac) or Git Bash (Windows). You may need to modify some commands accordingly. Please be aware that these commands will not work in Windows PowerShell as is.
-
-If you encounter an error message, don't be discouraged—errors are learning opportunities. Help each other when you can, and reach out to your instructor for help when needed.
-
-* Start with the **In-class Exercises**.
+* We'll start with the **In-class Exercises**.
 * Continue with the **Additional Practices** section on your own time. 
 * **Optional:** Explore the **Advanced Concepts** if you wish to explore CLI and filesystem in more depth.
 
 ## In-class exercises
 
-Today we will walk through the first lab assignment together. 
+> **Note:** Go to your ***forked course repository*** and start Codespaces as described in the [course's general setup instructions](../../setup/README.md). If you haven't forked the repo yet, do it now. 
 
-- Work through CLI commands: [Lab 01](../../labs/01-cli/README.md) (You may see a 404 error until the lab is released)
-- Submit your work as Lab 1 on Canvas. See the [Submitting Labs](../../labs/README.md) section for instructions.
+> **Advanced: Optional** - If you set up software tools on your own computer, for an additional challenge, complete these exercises on your local laptop using either the MacOS Terminal (Mac) or Git Bash (Windows). You may need to modify some commands accordingly. Please be aware that these commands will not work in Windows PowerShell as is.
+
+1. Start working through [CLI commands: Lab 01](../../labs/01-cli/README.md) (You may see a 404 error until the lab is released)
+
+    If at any time you encounter an error message, don't be discouraged—errors are learning opportunities. Help each other when you can, and reach out to your instructor for help when needed.
+
+2. Complete the lab and submit your work by the due date posted on Canvas. The [Additional Practices](#additional-practice) section provides additional details for using some of the most common commands.
 
 ## Additional Practice
 
@@ -36,6 +35,8 @@ Change directories to your home directory (see the "Navigating the file system" 
 ```
 cd ~
 ```
+
+Alternatively, you can use `cd $HOME` or simply `cd`. All three options will take you to your home directory.
 
 Learn the location of your home directory by issuing the `pwd` command. `pwd` is short for "print working directory". 
 
@@ -703,7 +704,7 @@ tar -xzvf archive.tar.gz
 ```
 The only difference in options is the use of `-x` which means "expand"
 
-> **Note:** It's extremely useful to know that in the world of the command line you can always add or remove files from archives without re-creating them! They are editable objects using when using either the `zip` or `tar` commands.
+> **Note:** It's extremely useful to know that in the world of the command line you can always add or remove files from archives without re-creating them! They are editable objects when using either the `zip` or `tar` commands.
 
 ### Finding Files
 
@@ -739,7 +740,7 @@ nothing more, this command would work:
 find . -name '*moby*'
 ```
 
-Or if you wanted to file all text files by suffix in a directory
+Or if you wanted to find all text files by suffix in a directory
 
 ```
 find . -name '*.txt'
