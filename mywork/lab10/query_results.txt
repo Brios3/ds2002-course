@@ -1,0 +1,11 @@
+name	email	course_name	semester
+Alex Brown	abrown@univ.edu	Intro to Economics	Fall 2026
+Maria Lopez	mlopez@univ.edu	Data Structures	Fall 2026
+Daniel Kim	dkim@univ.edu	Linear Algebra	Fall 2026
+Sarah Patel	spatel@univ.edu	Genetics	Fall 2026
+James Carter	jcarter@univ.edu	Corporate Finance	Fall 2026
+Olivia White	owhite@univ.edu	Quantum Physics	Fall 2026
+Michael Green	mgreen@univ.edu	World History	Fall 2026
+Emily Davis	edavis@univ.edu	Organic Chemistry	Fall 2026
+Ryan Hall	rhall@univ.edu	International Relations	Fall 2026
+Sophia Clark	sclark@univ.edu	Psychology	Fall 2026
